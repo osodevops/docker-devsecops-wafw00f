@@ -1,5 +1,7 @@
 FROM alpine:latest
 
+MAINTAINER OSO DevOps (https://github.com/osodevops)
+
 RUN apk add --update python py-pip git
 
 RUN git clone https://github.com/EnableSecurity/wafw00f
